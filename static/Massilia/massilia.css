@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Black_Oblique.otf') format('opentype');
+    font-weight: 900;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Bold_Oblique.otf') format('opentype');
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Extra_Bold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Extra_Bold_Oblique.otf') format('opentype');
+    font-weight: 800;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Extra_Light.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Extra_Light_Oblique.otf') format('opentype');
+    font-weight: 200;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Light_Oblique.otf') format('opentype');
+    font-weight: 300;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Medium_Oblique.otf') format('opentype');
+    font-weight: 500;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Oblique.otf') format('opentype');
+    font-weight: normal;
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: 'Massilia';
+    src: url('fonnts.com-Massilia_Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -8,14 +8,14 @@ import { Button } from "@/components/ui/button"
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <main className="">
+      <main className="font-bigcity">
         <section className="relative ">
           <StaticImage src={"../images/img-hero.png"} alt="Hero" className="w-full h-full absolute inset-0 z-0" />
           <div className="z-10 relative container mx-auto p-4 max-w-screen-lg flex flex-col justify-center py-32 pt-[12rem] gap-4">
             <h2 className="text-5xl text-[6rem] md:w-1/2 font-extrabold text-white">
               Lancia la tua impresa in Romagna
             </h2>
-            <p className="text-2xl text-white md:w-1/2">Musica d&quot;impresa: un intero territorio al tuo sostegno</p>
+            <p className="text-2xl text-white md:w-1/2">Musica d&apos;impresa: un intero territorio al tuo sostegno</p>
             <Button className="bg-[#ea5b74] text-white px-24 py-6 w-fit">
               CANDIDATI ORA
             </Button>
