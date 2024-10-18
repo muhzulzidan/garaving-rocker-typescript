@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = () => {
     <Layout>
       <main className="font-bigcity">
         <section className="relative ">
-          <StaticImage src={"../images/img-hero.png"} alt="Hero" className="w-full h-full absolute inset-0 z-0" />
+          <StaticImage src={"../images/img-hero.png"} alt="Hero" className="w-full h-full absolute inset-0 z-0" style={{ position:"absolute" }}/>
           <div className="z-10 relative container mx-auto p-4 max-w-screen-lg flex flex-col justify-center py-32 pt-[12rem] gap-4">
             <h2 className="text-5xl text-[6rem] md:w-1/2 font-extrabold text-white">
               Lancia la tua impresa in Romagna
@@ -31,7 +31,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </section>
 
         <section className="relative bg-gradient-to-r from-[#e5e5e5] to-[#e5e5e5]">
-          <StaticImage src={"../images/img1.png"} alt="Hero" className="w-full h-full absolute inset-0 z-10 object-right-top" objectFit="contain" objectPosition={"right bottom"} />
+          <StaticImage src={"../images/img1.png"} alt="Hero" className="w-full h-full absolute inset-0 z-10 object-right-top" objectFit="contain" objectPosition={"right bottom"} style={{ position: "absolute" }} />
           {/* <StaticImage src={"../images/img1.png"} alt="Hero" className="w-full h-full absolute inset-0 z-0 object-right-top" objectFit="cover" /> */}
           <div className="relative z-20 container mx-auto p-4 max-w-screen-lg py-12 pb-24 flex-col flex gap-4">
             <h3 className="gradient-text font-extrabold text-5xl text-[6rem] w-fit">Call aperta!</h3>
@@ -91,7 +91,7 @@ const IndexPage: React.FC<PageProps> = () => {
 
 
         <section className="relative">
-          <StaticImage src={"../images/img2.png"} alt="Hero" className="w-full h-full absolute inset-0 z-10 " />
+          <StaticImage src={"../images/img2.png"} alt="Hero" className="w-full h-full absolute inset-0 z-10 " style={{ position: "absolute" }} />
           <div className="relative z-20 container mx-auto p-4 max-w-screen-lg py-14 pb-32 flex-col flex gap-8 text-white text-xl ">
             <h3 className="text-5xl text-[6rem] font-extrabold md:w-1/2">Scarica <br /> il bando e vola!</h3>
             <div className="flex gap-1 items-center">
@@ -153,7 +153,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </section>
 
         <section className="relative">
-          <StaticImage src={"../images/img3.png"} alt="Hero" className="w-full h-full absolute inset-0 z-10 " />
+          <StaticImage src={"../images/img3.png"} alt="Hero" className="w-full h-full absolute inset-0 z-10 " style={{ position: "absolute" }} />
           <div className="relative z-20 container mx-auto p-4 max-w-screen-lg py-14 pb-24 pt-[30rem] flex-col flex gap-8 text-white text-xl items-baseline">
             <h4 className="text-3xl ">Non perdere questa occasione</h4>
             <h3 className="text-5xl text-[6rem] font-extrabold">Il tuo Futuro parte dalla Romagna</h3>
